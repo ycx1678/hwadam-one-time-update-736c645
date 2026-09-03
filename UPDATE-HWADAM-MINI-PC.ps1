@@ -3,7 +3,7 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
-$PackageUrl = "https://raw.githubusercontent.com/ycx1678/hwadam-one-time-update-736c645/main/hwadam-source.zip?v=261ad0f"
+$PackageUrl = "https://raw.githubusercontent.com/ycx1678/hwadam-one-time-update-736c645/main/hwadam-source-261ad0f.zip"
 $TemporaryRoot = Join-Path ([System.IO.Path]::GetTempPath()) "hwadam-one-time-update-$([guid]::NewGuid().ToString('N'))"
 $ArchivePath = Join-Path $TemporaryRoot "hwadam-source.zip"
 $SourceRoot = Join-Path $TemporaryRoot "source"
