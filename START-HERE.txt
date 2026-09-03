@@ -1,0 +1,5 @@
+미니PC에서 UPDATE-HWADAM-MINI-PC.ps1 파일을 마우스 오른쪽 버튼으로 눌러
+PowerShell에서 실행을 선택하세요.
+
+이 업데이트는 기존 selfhost\.env와 data 폴더를 건드리지 않습니다.
+완료 문구가 나오면 https://hwadamid.com/ 을 새로고침해 확인하세요.
