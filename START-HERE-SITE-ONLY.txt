@@ -1,0 +1,10 @@
+이 파일은 포트폴리오 사진 제한과 고객 견적 화면만 업데이트합니다.
+
+기존 data 폴더, 관리자 계정, 솔라피 API 설정은 건드리지 않습니다.
+
+1. UPDATE-HWADAM-SITE-ONLY.ps1 파일을 미니PC 바탕화면 또는 다운로드 폴더에 저장합니다.
+2. 파일을 마우스 오른쪽 버튼으로 누른 뒤 PowerShell에서 실행을 선택합니다.
+3. 완료 문구가 나온 뒤 https://hwadamid.com/ 을 새로고침합니다.
+
+PowerShell에서 직접 실행해야 한다면 아래 한 줄을 붙여넣으세요.
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$env:USERPROFILE\Downloads\UPDATE-HWADAM-SITE-ONLY.ps1"
